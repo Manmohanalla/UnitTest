@@ -7,7 +7,7 @@ class MyTestCase(unittest.TestCase):
         self.assertEqual(concat.add('Hello','world!'), 'Hello world!')
     def test2(self):
         concat = Add()
-        self.assertEqual(concat.add(5,5), 10)
+        self.assertEqual(concat.add(5,5), 11)
 if __name__ == '__main__':
     unittest.main()
 
