@@ -7,5 +7,3 @@ class Add:
 			c= a+' ' +b
 			return c
 result = Add()
-result.add('hello','world')
-result.add(4,3)
